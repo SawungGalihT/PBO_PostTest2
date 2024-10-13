@@ -3,9 +3,11 @@ NAMA : **SAWUNG GALIH TRIATMOJO**
 KELAS/NIM : **B1/2309116058**    
 
 **LATAR BELAKANG**  
-Salah satu komponen penting dalam menjaga keteraturan dan efisiensi sebuah perumahan adalah pengelolaan data. Sistem Manajemen Perumahan dibuat untuk memenuhi kebutuhan untuk mengelola informasi rumah seperti alamat, tipe, dan harga secara sistematis. Program ini memiliki fitur *CRUD* (*Create*, *Read*, *Update*, *Delete*), yang memungkinkan pengguna untuk menambahkan, menampilkan, menghapus, dan memperbarui data rumah.
+Salah satu komponen penting dalam menjaga keteraturan dan efisiensi sebuah perumahan adalah pengelolaan data. Dengan semakin kompleksnya informasi yang harus dikelola, dibutuhkan sebuah sistem yang dapat mengelola data dengan baik dan efisien. Sistem Manajemen Perumahan dibuat untuk memenuhi kebutuhan tersebut, dengan fokus pada pengelolaan informasi rumah seperti nomor rumah, tipe, dan harga secara sistematis. Program ini memiliki fitur CRUD (*Create*, *Read*, *Update*, *Delete*), yang memungkinkan pengguna untuk menambahkan, menampilkan, menghapus, dan memperbarui data rumah sesuai kebutuhan.
 
-Program ini menggunakan bahasa pemrograman Java untuk menyediakan solusi manajemen perumahan yang mudah namun efektif. Sistem ini dapat mengelola banyak rumah secara dinamis melalui penyimpanan data rumah dalam *array list*. Fitur yang memungkinkan pengelola untuk memastikan data tetap akurat dan tersedia, seperti pencatatan otomatis jumlah rumah dan kemampuan untuk memperbarui data, membuatnya lebih mudah.
+Program ini dibangun menggunakan bahasa pemrograman Java untuk menyediakan solusi manajemen perumahan yang mudah namun efektif. Salah satu keunggulan dari sistem ini adalah kemampuannya untuk mengelola banyak rumah secara dinamis melalui penyimpanan data rumah dalam array list. Dengan pendekatan ini, pengelola perumahan dapat dengan mudah melakukan perubahan data, memastikan informasi tetap akurat dan tersedia.
+
+Lebih dari sekadar pengelolaan data, sistem ini juga dirancang untuk memberikan kemudahan dalam pengambilan keputusan. Dengan mencatat jumlah rumah yang terdaftar dan menyediakan opsi untuk memperbarui informasi, pengelola dapat dengan cepat merespons perubahan atau kebutuhan baru dalam perumahan. Selain itu, program ini memberikan fleksibilitas dalam penambahan berbagai blok rumah, yang memungkinkan pengelola untuk mengorganisir dan menampilkan data dengan lebih terstruktur. Melalui sistem ini, diharapkan pengelolaan perumahan dapat menjadi lebih efisien, transparan, dan terintegrasi.
 
 ## Penjelasan *Output* dari Program
 ### Tampilan Awal (Menu Awal)
@@ -17,26 +19,25 @@ Setelah itu program akan menampilkan **Menu Awal**.
 
 ### Kegunaan Setiap Menu pada Menu Awal
 **1. Tambah Rumah**  
-![image](https://github.com/user-attachments/assets/cbcb0a1f-84c3-4fe8-9f34-2b885a634199)  
-Untuk di menu ini user akan diminta untuk memasukan Blok (String), Tipe (String), dan Harga (Integer) Rumah, untuk **menambahkan** data rumah baru.  
+![image](https://github.com/user-attachments/assets/cf77e452-2b96-4d86-acd5-040f5badf432)  
+Untuk di menu ini user akan diminta untuk memasukan Blok A/B (String), No (Integer), Tipe (String), dan Harga (Integer) Rumah, untuk **menambahkan** data rumah baru.  
 **2. Tampilkan Semua Rumah**  
-![image](https://github.com/user-attachments/assets/f31f805c-e3b4-4f64-a925-88fdce15ad57)  
+![image](https://github.com/user-attachments/assets/189aa8d9-bc21-40c3-b586-8af8c201d572)   
 Untuk di menu ini program akan menampilkan semua data rumah yang ada.  
 **3. Hapus Rumah**  
-![Screenshot 2024-09-30 110913](https://github.com/user-attachments/assets/07ede9f4-8fb0-4f91-900c-8c4e08f44fbb)
-![Screenshot 2024-09-30 110927](https://github.com/user-attachments/assets/3aee3b63-f858-4ad9-ab27-10a6c35a22cf)  
-Untuk di menu ini program akan meminta user untuk memasukan **Alamat** dari data rumah yang ingin **dihapus**.  
+![image](https://github.com/user-attachments/assets/f0a85624-05ee-487e-9417-b03b5dd87d51)  
+*Sebelum Dihapus*  
+![image](https://github.com/user-attachments/assets/c82b62bd-342a-4e26-a26a-0a6919e2b270)  
+*Setelah Dihapus*  
+Untuk di menu ini program akan meminta user untuk memasukan **No Rumah** dari data rumah yang ingin **dihapus**.  
 **4. Update Rumah**  
-![image](https://github.com/user-attachments/assets/c50fb125-30cb-4a50-98d6-8fdca409246a)
-![image](https://github.com/user-attachments/assets/00ee5244-9ae9-4a58-974b-027232c3b695)   
-Untuk di menu ini program akan meminta untuk memasukan **Alamat** dari data rumah yang ingin **diubah**.  
+![image](https://github.com/user-attachments/assets/ee134401-f100-4e4d-abcc-1ff0a91c7bf5)  
+*Sebelum di Update*  
+![image](https://github.com/user-attachments/assets/e158b2fe-ea70-4053-b218-f8e4fde99654)  
+*Proses Update data Rumah*  
+![image](https://github.com/user-attachments/assets/da1ffd27-522a-4da3-a4aa-a0f1ee913878)  
+*Setelah di Update*  
+Untuk di menu ini program akan meminta untuk memasukan **No Rumah** dari data rumah yang ingin **diubah**.  
 **5. Keluar**  
-![image](https://github.com/user-attachments/assets/6b6c1bdc-c9da-407f-84a2-f9f54ff00aba)  
+![image](https://github.com/user-attachments/assets/c2879f91-2c24-41aa-8dc3-c970a2c463d4)  
 Untuk di menu ini, user akan keluar dari program.
-
-
-
-
-
-
-
